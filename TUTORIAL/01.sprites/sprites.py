@@ -47,7 +47,7 @@ class MyGame(arcade.Window):# Esta es la clase de la aplicacion principal
             pared = arcade.Sprite(":resources:images/tiles/grassMid.png", ESCALA_PAREDES) # Variable de la pared
             pared.center_x = x  # Posision en el eje x
             pared.center_y = 32 # Posision en el eje y
-            self.pared_lista.append(pared)
+            self.pared_lista.append(pared) # Agregamos la pared
 
         # Crear obstaculos
         cordenada_listas_cajas = [[256, 105], [456, 105], [656, 105], [856, 105], [1056, 105]]# Lista de coordenadas para sprites
