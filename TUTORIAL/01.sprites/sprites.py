@@ -21,6 +21,9 @@ class MyGame(arcade.Window):# Esta es la clase de la aplicacion principal
         self.pared_lista = None
         self.caja_lista = None
         self.personaje_lista = None
+        
+        # Variable separada que contiene el sprite del jugador
+        self.personaje_sprite = None
 
         arcade.set_background_color(arcade.csscolor.MIDNIGHT_BLUE) # Para darle color al fondo
         #arcade.set_background_color(arcade.color.DARK_SLATE_GRAY) # Para darle color al fondo
