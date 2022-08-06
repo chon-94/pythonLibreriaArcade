@@ -9,7 +9,7 @@ class MyGame(arcade.Window):# Esta es la clase de la aplicacion principal
 
     def __init__(self):# Llama a la clase principal y configure la ventana
         
-        super().__init__(ANCHO_PANTALLA, LARGO_PANTALLA, TITULO_PANTALLA)# Sino se colocan las variables se toman los valores por defecto
+        super().__init__(ANCHO_PANTALLA, LARGO_PANTALLA, TITULO_PANTALLA)# Sino se colocan las constantes se toman los valores por defecto
 
         arcade.set_background_color(arcade.csscolor.MIDNIGHT_BLUE) # Para darle color al fondo
         #arcade.set_background_color(arcade.color.DARK_SLATE_GRAY) # Para darle color al fondo
