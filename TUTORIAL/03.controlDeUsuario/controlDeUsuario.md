@@ -48,3 +48,5 @@ Cuando soltamo la tecla, volveremos a poner nuestra velocidad a cero.
 
 Nuestro método on_update se llama unas 60 veces por segundo. Le pediremos al motor de física que mueva a nuestro jugador en función de su cambio_x y cambio_y.
 
+Bueno yo lo que hice fue crear una escena y una fisica por cada objeto que hay... es decir para las cajas y para la pared
+
