@@ -1,4 +1,5 @@
 # Control de usuario
+
 Ahora necesitamos poder hacer que el personaje se mueva.
 
 Primero, en la parte superior del programa, agregue una constante que controla cuántos píxeles por actualización viaja nuestro personaje:
