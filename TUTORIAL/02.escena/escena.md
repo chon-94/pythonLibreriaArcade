@@ -1,3 +1,4 @@
+# Escena
 A continuación, agregaremos una escena a nuestro juego. Una escena es una herramienta para administrar una serie de spritelistas diferentes asignando a cada uno un nombre y manteniendo un orden de sorteo.
 
 Las spritelistas se pueden dibujar directamente como vimos en el paso 2 de este tutorial, pero una escena puede ser útil para manejar muchas listas diferentes a la vez y poder dibujarlas todas con una sola llamada a la escena.
