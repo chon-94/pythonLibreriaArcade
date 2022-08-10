@@ -102,14 +102,14 @@ class MyGame(arcade.Window):# Esta es la clase de la aplicacion principal
 
 # COLECCIONABLES
         # Crear monedas
-        cordenada_listas_monedas = [[256,175],[456,175],[656,175],[856,175],[1056,175],[1256,175],[1456,175],[1656,175]]# Lista de coordenadas para sprites
+        cordenada_listas_monedas = [[256,175],[456,175],[656,175],[856,175],[1056,175],[1256,175],[1456,175],[1656,175] , [1826,215] , [1826,285] ]# Lista de coordenadas para sprites
         for cordenada in cordenada_listas_monedas :#Añadir los obstacuo en el suelo
             coin = arcade.Sprite(":resources:images/items/coinGold.png", ESCALA_MONEDAS)# Variable de la caja
             coin.position = cordenada # Decimos que la posision de la caja sera  el de la cordenada 
             #self.caja_lista.append(caja) # Agregamos la caja
             self.escena.add_sprite("Coins", coin)
         # Crear diamantes
-        cordenada_listas_diamantes = [ [356,375] , [556,375] , [756,375] , [956,375] , [1156,375] , [1356,375] , [1556,375] ]# Lista de coordenadas para sprites
+        cordenada_listas_diamantes = [ [356,375] , [556,375] , [756,375] , [956,375] , [1156,375] , [1356,375] , [1556,375] , [1826,250] , [1826,320]  ]# Lista de coordenadas para sprites
         for cordenada in cordenada_listas_diamantes :#Añadir los obstacuo en el suelo
             gema = arcade.Sprite(":resources:images/items/gemBlue.png", ESCALA_DIAMANTES)# Variable de la caja
             gema.position = cordenada # Decimos que la posision de la caja sera  el de la cordenada 
